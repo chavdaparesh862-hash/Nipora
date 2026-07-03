@@ -1,0 +1,6 @@
+{
+  "name": "Nipora",
+  "description": "Watch movies together in perfect real-time synchronization with your loved ones, no matter the distance.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
