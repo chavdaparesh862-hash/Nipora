@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Play, Pause, Volume2, VolumeX, Maximize, RotateCcw, RotateCw, AlertCircle, RefreshCw } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import { FloatingReaction } from "../types";
+import { FloatingReaction } from "./types";
 
 interface SyncedPlayerProps {
   videoUrl: string;

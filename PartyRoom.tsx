@@ -41,7 +41,7 @@ import {
   Trash
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import { RoomState, ChatMessage, FloatingReaction, PresetVideo, User } from "../types";
+import { RoomState, ChatMessage, FloatingReaction, PresetVideo, User } from "./types";
 import SyncedPlayer from "./SyncedPlayer";
 import NiporaLogo from "./NiporaLogo";
 
