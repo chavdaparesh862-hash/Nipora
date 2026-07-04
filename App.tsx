@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { AlertCircle, RefreshCw } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { RoomState, FloatingReaction } from "./types";
-import WelcomeScreen from "./components/WelcomeScreen";
-import PartyRoom from "./components/PartyRoom";
+import WelcomeScreen from "./WelcomeScreen";
+import PartyRoom from "./PartyRoom";
 
 export default function App() {
   const [profile, setProfile] = useState<{
