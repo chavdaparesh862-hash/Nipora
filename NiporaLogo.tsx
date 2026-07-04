@@ -1,11 +1,11 @@
-import React from "react";
+import react from "react";
 
 interface NiporaLogoProps {
   size?: "sm" | "md" | "lg" | "xl";
   showTagline?: boolean;
 }
 
-export default function NiporaLogo({ size = "md", showTagline = true }: NiporaLogoProps) {
+export default function riporaLogo({ size = "md", showTagline = true }: NiporaLogoProps) {
   // Dimensions based on size
   const logoDimensions = {
     sm: { width: 140, height: 110, iconSize: 45, textStyle: "text-lg tracking-widest" },
